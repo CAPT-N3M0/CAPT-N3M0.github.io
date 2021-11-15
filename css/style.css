@@ -1,0 +1,348 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul {
+  list-style: none;
+}
+.clr {
+  clear: both;
+}
+.heading {
+  width: 100%;
+  background-color: #02918c;
+  padding: 18px 0;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.logo {
+  width: 20%;
+  float: left;
+}
+.menu {
+  width: 80%;
+  float: left;
+}
+.menu ul {
+  text-align: end;
+}
+.menu ul li {
+  display: inline-block;
+}
+.menu ul li a {
+  color: white;
+  font-size: 18px;
+
+  padding: 0px 25px;
+  display: block;
+  position: relative;
+  border: 1px solid transparent;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+.con {
+  padding-right: 0px !important;
+}
+.menu ul li a:hover {
+  color: #cfc91d;
+}
+
+/* MENU PART END */
+
+/* Banner part Start */
+.banner {
+  background-image: url("https://i.ibb.co/RDSmgB6/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 220px;
+  padding-bottom: 225px;
+}
+.banner_text {
+  text-align: center;
+}
+.banner_text h4 {
+  color: white;
+  font-size: 40px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.banner_text h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 68px;
+  letter-spacing: 20px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+.banner_text p {
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 50px;
+}
+.banner_text img {
+  padding-bottom: 50px;
+}
+/* .banner_text .ban_btn {
+  padding-top: 50px;
+} */
+.banner_text .ban_btn a {
+  padding: 20px 40px;
+  display: inline-block;
+  background-color: #cfc91d;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 5px;
+  border: 2px solid transparent;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.banner_text .ban_btn a:hover {
+  background-color: transparent;
+  border: 2px solid white;
+  color: #cfc91d;
+}
+.abut_head {
+  text-align: center;
+  padding-top: 100px;
+}
+.abut_head h2 {
+  font-size: 48px;
+  color: #02918c;
+  font-weight: 800;
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 30px;
+}
+.abut_head p {
+  color: gray;
+}
+.abut_head .txt {
+  padding: 30px 30px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+.container span {
+  font-size: 25px;
+  font-weight: bold;
+}
+.container .icons {
+  height: 250px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.container .icons_style {
+  width: 24%;
+  height: 100%;
+  float: left;
+  border-right: 1px solid gray;
+  text-align: center;
+}
+.container .icons i {
+  padding-top: 35px;
+  color: #02918c;
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+.container .icons h2 {
+  color: gray;
+  font-weight: 800;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+.container .icons p {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: gray;
+  line-height: 25px;
+  font-weight: 200;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+.container .bar {
+  border-right: 0px;
+}
+.service {
+  background-image: url("../images/service.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 75px 0px;
+}
+.service .service_con {
+  width: 45%;
+}
+.service .service_con h2 {
+  font-weight: 800;
+  font-family: "Open Sans", sans-serif;
+  color: #02918c;
+  font-size: 48px;
+  padding-bottom: 40px;
+}
+.service .service_con p {
+  color: gray;
+  letter-spacing: 1px;
+  padding-bottom: 30px;
+}
+.service .service_con h4 {
+  color: gray;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  line-height: 30px;
+  font-size: 16px;
+  padding-bottom: 50px;
+}
+.service .service_con .ser_icon {
+  overflow: hidden;
+}
+.service .service_con .ser_icon .icon1 {
+  width: 45%;
+  float: left;
+}
+.service .service_con .ser_icon .icon2 {
+  width: 45%;
+  float: left;
+}
+.service .service_con .ser_icon i {
+  color: #02918c;
+  font-size: 30px;
+}
+.service .service_con .ser_icon h3 {
+  color: gray;
+  font-weight: 800;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  padding: 15px 0px;
+}
+.service .service_con .ser_icon p {
+  line-height: 30px;
+}
+.service .service_con .ser_icon .icon1 p {
+  padding-bottom: 50px;
+}
+.service .service_con .ser_icon .icon_set01 {
+  padding-right: 50px;
+}
+.service .service_con .ser_icon > p {
+  padding-right: 20px;
+}
+
+.work {
+  text-align: center;
+  padding-top: 110px;
+}
+.work h2 {
+  color: #02918c;
+  font-weight: 800;
+  font-family: "Open Sans", sans-serif;
+  font-size: 48px;
+}
+.work p {
+  padding-top: 30px;
+  color: gray;
+  letter-spacing: 1px;
+  padding-bottom: 25px;
+}
+.work h4 {
+  color: gray;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  line-height: 30px;
+  font-size: 16px;
+  padding: 0px 190px;
+}
+
+.imgz_main {
+  padding-top: 90px;
+  width: 100%;
+  height: 684px;
+}
+
+.imgz_main .imgz1 {
+  width: 25%;
+  float: left;
+  position: relative;
+  height: 50%;
+}
+.imgz_main .imgz {
+  width: 25%;
+  float: left;
+  position: relative;
+  height: 50%;
+}
+.imgz_main .imgz1 img {
+  width: 100%;
+  object-fit: cover;
+  /* margin-top: -10px; */
+}
+.imgz_main .imgz img {
+  width: 100%;
+  object-fit: cover;
+  /* margin-top: -10px; */
+}
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 80%;
+  width: 80%;
+  opacity: 0;
+  transition: 0.5s;
+  background-color: #1d8f87;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.imgz1:hover .overlay {
+  opacity: 0.8;
+}
+.imgz:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  color: white;
+  position: absolute;
+  text-align: center;
+}
+.imgz_main .text h3 {
+  font-weight: 800;
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 16px;
+  font-size: 20px;
+  padding-top: 85px;
+}
+.imgz_main .text p {
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 0px 70px;
+}
+.cnt {
+  padding-top: 100px;
+}
